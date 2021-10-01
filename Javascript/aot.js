@@ -14,7 +14,7 @@ function getAreaOfTraingle(){
 
 function displayArea(){
     var area = getAreaOfTraingle();
-    output.innerHTML = `Area by heron's formula: ${area}`;
+    output.innerHTML = `Area by heron's formula: ${area.toFixed(3)}`;
 }
 
 btn.addEventListener('click', displayArea)

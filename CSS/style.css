@@ -116,6 +116,8 @@ a{
 
 .quiz-form div{
     flex: 1;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .form-block{
@@ -155,4 +157,22 @@ a{
 .form-output{
     font-size: larger;
     font-weight: bolder;
+}
+
+.form-block div input{
+    cursor: pointer;
+}
+
+#btn{
+    cursor: pointer;
+}
+
+.footer-icon{
+    height: 2rem;
+    /* border-image: round; */
+    color: #7c3aed;
+}
+
+#output{
+    font-weight: bold; font-size: x-large;
 }
